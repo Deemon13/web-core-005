@@ -156,7 +156,8 @@ body {
     padding-left: 24px;
   }
 
-  .show {
+  .show,
+  .hide {
     font-family: "TT Lakes Medium", sans-serif;
     font-size: 16px;
     line-height: 1.5; /* 24px */
@@ -168,6 +169,11 @@ body {
   .show__icon {
     margin-right: 17px;
     fill: #41f6d7;
+    transform: rotate(0deg);
+  }
+
+  .show__icon--rotate {
+    transform: rotate(180deg);
   }
 }
 
